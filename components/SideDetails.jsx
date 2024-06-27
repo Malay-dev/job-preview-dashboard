@@ -3,12 +3,15 @@ import { Button, buttonVariants } from "./ui/button";
 import { Icons } from "./Icons";
 const SideDetails = () => {
   return (
-    <div className="w-96 h-full right-0 pt-10 container border-l">
-      <div className="grid grid-cols-2  gap-10 place-content-center">
+    <div className="w-96 h-full right-0 top-0 pt-10 container border-l">
+      <div className="grid grid-cols-2 gap-10 place-content-center">
         <Button
           variant="outline"
           className="bg-[##DC4A2D] text-[#DC4A2D] hover:text-[#DC4A2D] border-[#DC4A2D] flex gap-2 w-28 items-center">
-          <Icons.Trash2 size={"16"} color="#DC4A2D" className="min-w-3"></Icons.Trash2>
+          <Icons.Trash2
+            size={"16"}
+            color="#DC4A2D"
+            className="min-w-3"></Icons.Trash2>
           Delete job
         </Button>
         <Button
