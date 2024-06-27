@@ -17,13 +17,13 @@ const NavBar = () => {
       <div>
         <NavTab></NavTab>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
         <Badge content="" className="bg-[#DC4A2d]" size="sm" shape="circle">
           <Icons.Bell></Icons.Bell>
         </Badge>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" />
-          <AvatarFallback>CN</AvatarFallback>
+          <AvatarImage src="/atlassian-logo.png" />
+          <AvatarFallback>A</AvatarFallback>
         </Avatar>
         <Icons.ChevronDown></Icons.ChevronDown>
       </div>
