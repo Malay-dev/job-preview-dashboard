@@ -2,7 +2,7 @@ import React from "react";
 
 const JobAbout = () => {
   return (
-    <div className="container py-10 text-[#3D3D3D] font-medium font-sans text-sm border-b">
+    <div className="container px-20 py-10 text-[#3D3D3D] font-medium font-sans text-sm border-b">
       <h1 className="text-[#6E6D6D]">About the job</h1>
       <ol className="list-inside list-decimal">
         <li>Handle the UI/UX research design</li>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const CompanyDetails = () => {
   return (
-    <div className="container py-10">
+    <div className="container px-20 py-10">
       <div className="flex gap-2  text-[#4F4F4F] text-2xl items-center justify-start font-medium">
         <Image
           alt="atlassian-logo-2"

@@ -3,7 +3,7 @@ import { Chip } from "@nextui-org/react";
 import { Icons } from "./Icons";
 const JobTitle = () => {
   return (
-    <div className="container py-10 border-b">
+    <div className="container px-20 py-10 border-b">
       <div className="flex gap-2 items-center justify-start">
         <h1 className="text-4xl font-bold text-slate-600">
           Senior Product Designer

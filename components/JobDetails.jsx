@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const JobDetails = () => {
   return (
-    <div className="container py-10 border-b">
+    <div className="container px-20 py-10 border-b">
       <div className="grid grid-cols-4">
         <div>
           <h1 className="font-medium text-[#6E6D6D]">Skills Required</h1>
