@@ -5,7 +5,7 @@ const DashboardLayout = ({ children }) => {
   return (
     <div>
       <NavDash></NavDash>
-      <div className="  flex items-center justify-between">
+      <div className="flex ">
         {children}
         <SideDetails></SideDetails>
       </div>

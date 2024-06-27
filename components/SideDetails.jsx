@@ -3,7 +3,7 @@ import { Button, buttonVariants } from "./ui/button";
 import { Icons } from "./Icons";
 const SideDetails = () => {
   return (
-    <div className="w-96 h-full right-0 top-0 pt-10 container border-l">
+    <div className="w-96 h-full  pt-10 container border-l">
       <div className="grid grid-cols-2 gap-10 place-content-center">
         <Button
           variant="outline"
